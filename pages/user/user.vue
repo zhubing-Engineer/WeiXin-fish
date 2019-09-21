@@ -1,6 +1,6 @@
 <template>  
     <view class="container">  
-		
+		<!-- 这是个人中心页面 -->
 		<view class="user-section">
 			<image class="bg" src="/static/user-bg.jpg"></image>
 			<view class="user-info-box">
