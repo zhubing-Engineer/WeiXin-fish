@@ -386,6 +386,9 @@ var _default =
               * 请求静态数据只是为了代码不那么乱
               * 分次请求未作整合
               */
+    clicksert: function clicksert() {
+      console.log("点击了搜索");
+    },
     loadData: function () {var _loadData = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var carouselList, goodsList;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
                   this.$api.json('carouselList'));case 2:carouselList = _context.sent;
                 this.titleNViewBackground = carouselList[0].background;

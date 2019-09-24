@@ -28,7 +28,7 @@
 					</radio>
 				</label>
 			</view>
-			<view class="type-item" @click="changePayType(3)">
+			<!-- <view class="type-item" @click="changePayType(3)">
 				<text class="icon yticon icon-erjiye-yucunkuan"></text>
 				<view class="con">
 					<text class="tit">预存款支付</text>
@@ -38,7 +38,7 @@
 					<radio value="" color="#fa436a" :checked='payType == 3' />
 					</radio>
 				</label>
-			</view>
+			</view> -->
 		</view>
 		
 		<text class="mix-btn" @click="confirm">确认支付</text>

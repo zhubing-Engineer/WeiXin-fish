@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "详情展示",
+  "navigationBarTitleText": "商品详情",
   "usingComponents": {
     "share": "/components/share"
   }

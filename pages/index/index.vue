@@ -3,7 +3,7 @@
 		<!-- 小程序头部兼容 -->
 		<!-- #ifdef MP -->
 		<view class="mp-search-box">
-			<input class="ser-input" type="text" value="输入关键字搜索" disabled />
+			<input class="ser-input" type="text" value="输入关键字搜索" disabled @click="clicksert" />
 		</view>
 		<!-- #endif -->
 		
@@ -49,9 +49,9 @@
 			</view>
 		</view>
 		
-		<view class="ad-1">
+		<!-- <view class="ad-1">
 			<image src="/static/temp/ad1.jpg" mode="scaleToFill"></image>
-		</view>
+		</view> -->
 		
 		<!-- 秒杀楼层 -->
 		<view class="seckill-section m-t">
@@ -79,7 +79,7 @@
 		</view>
 		
 		<!-- 团购楼层 -->
-		<view class="f-header m-t">
+		<!-- <view class="f-header m-t">
 			<image src="/static/temp/h1.png"></image>
 			<view class="tit-box">
 				<text class="tit">精品团购</text>
@@ -132,12 +132,12 @@
 				</swiper-item>
 
 			</swiper>
-		</view>
+		</view> -->
 		
 		
 		
 		<!-- 分类推荐楼层 -->
-		<view class="f-header m-t">
+		<!-- <view class="f-header m-t">
 			<image src="/static/temp/h1.png"></image>
 			<view class="tit-box">
 				<text class="tit">分类精选</text>
@@ -166,7 +166,7 @@
 					</view>
 				</view>
 			</scroll-view>
-		</view>
+		</view> -->
 		<view class="hot-floor">
 			<view class="floor-img-box">
 				<image class="floor-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553409984228&di=dee176242038c2d545b7690b303d65ea&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F5ef4da9f17faaf4612f0d5046f4161e556e9bbcfdb5b-rHjf00_fw658" mode="scaleToFill"></image>
@@ -262,6 +262,9 @@
 			 * 请求静态数据只是为了代码不那么乱
 			 * 分次请求未作整合
 			 */
+			clicksert(){
+				console.log("点击了搜索")
+			},
 			async loadData() {
 				let carouselList = await this.$api.json('carouselList');
 				this.titleNViewBackground = carouselList[0].background;

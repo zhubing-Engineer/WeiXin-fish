@@ -25,7 +25,7 @@
 			<view class="bot-row">
 				<text>销量: 108</text>
 				<text>库存: 4690</text>
-				<text>浏览量: 768</text>
+				<!-- <text>浏览量: 768</text> -->
 			</view>
 		</view>
 		
@@ -82,7 +82,7 @@
 			<view class="e-header">
 				<text class="tit">评价</text>
 				<text>(86)</text>
-				<text class="tip">好评率 100%</text>
+				<text class="tip"></text>
 				<text class="yticon icon-you"></text>
 			</view> 
 			<view class="eva-box">

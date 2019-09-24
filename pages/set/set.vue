@@ -12,6 +12,10 @@
 			<text class="cell-tit">实名认证</text>
 			<text class="cell-more yticon icon-you"></text>
 		</view>
+		<view class="list-cell" @click="navTo('申请成为供应商')" hover-class="cell-hover" :hover-stay-time="50">
+			<text class="cell-tit">申请成为供应商</text>
+			<text class="cell-more yticon icon-you"></text>
+		</view>
 		
 		<view class="list-cell m-t">
 			<text class="cell-tit">消息推送</text>
@@ -21,8 +25,8 @@
 			<text class="cell-tit">清除缓存</text>
 			<text class="cell-more yticon icon-you"></text>
 		</view>
-		<view class="list-cell b-b" @click="navTo('关于Dcloud')" hover-class="cell-hover" :hover-stay-time="50">
-			<text class="cell-tit">关于Dcloud</text>
+		<view class="list-cell b-b" @click="navTo('关于我们')" hover-class="cell-hover" :hover-stay-time="50">
+			<text class="cell-tit">关于我们</text>
 			<text class="cell-more yticon icon-you"></text>
 		</view>
 		<view class="list-cell">
