@@ -89,7 +89,7 @@ page,
 }
 .vip-text {
   font-size: 16px;
-  color: #FCEEC2;
+  color: #fceec2;
   position: absolute;
   top: 330rpx;
   width: 100%;
@@ -147,8 +147,8 @@ page,
   height: 80rpx;
   position: absolute;
   top: 730rpx;
-  background: -o-linear-gradient(20deg, #FDEBBF 0%, #E9CA74 100%);
-  background: linear-gradient(70deg, #FDEBBF 0%, #E9CA74 100%);
+  background: -o-linear-gradient(20deg, #fdebbf 0%, #e9ca74 100%);
+  background: linear-gradient(70deg, #fdebbf 0%, #e9ca74 100%);
   left: 9%;
   border-radius: 55rpx;
   color: black;
@@ -172,6 +172,173 @@ page,
 .img-fpx {
   text-align: center;
   font-size: 50rpx;
-  color: #FFEFC3;
+  color: #ffefc3;
+}
+.monthpack {
+  width: 100%;
+  height: 370rpx;
+  margin-top: 10rpx;
+  background: white;
+}
+.f-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 140rpx;
+  padding: 6rpx 30rpx 8rpx;
+  background: #fff;
+}
+.f-header image {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    width: 80rpx;
+    height: 80rpx;
+    margin-right: 20rpx;
+}
+.f-header .tit-box {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.f-header .tit {
+    font-size: 34rpx;
+    color: #font-color-dark;
+    line-height: 1.3;
+}
+.f-header .tit2 {
+    font-size: 24rpx;
+    color: #909399;
+}
+.f-header .icon-you {
+    font-size: 34rpx;
+    color: #909399;
+}
+.floor-list {
+  white-space: nowrap;
+}
+.scoll-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.floor-item {
+  width: 600rpx;
+  height: 210rpx;
+  margin: 0 10rpx;
+  border-radius: 16rpx;
+  -webkit-box-shadow: 10rpx 10rpx 10rpx #c0c4cc;
+          box-shadow: 10rpx 10rpx 10rpx #c0c4cc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  border: 1px solid #ebeef5;
+}
+.floor-item .left-scroll {
+    width: 200rpx;
+    height: 170rpx;
+    background: white;
+}
+.floor-item .img-srcoll {
+    width: 400rpx;
+    height: 210rpx;
+    position: relative;
+}
+.floor-item .price {
+    color: #fa436a;
+}
+.guess-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 30rpx;
+  background: #fff;
+}
+.guess-section .guess-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 48%;
+    padding-bottom: 40rpx;
+}
+.guess-section .guess-item:nth-child(2n + 1) {
+      margin-right: 4%;
+}
+.guess-section .image-wrapper {
+    width: 100%;
+    height: 330rpx;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.guess-section .image-wrapper image {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+}
+.guess-section .title {
+    font-size: 32rpx;
+    color: #303133;
+    line-height: 80rpx;
+}
+.guess-section .price {
+    font-size: 32rpx;
+    color: #fa436a;
+    line-height: 1;
+}
+.btn-yuemian {
+  height: 50rpx;
+  line-height: 35rpx;
+  background: white;
+  background: #F1414C;
+  width: 140rpx;
+  font-size: 28rpx;
+  border-radius: 20rpx;
+  padding: 10rpx;
+  color: white;
+}
+.btn-yumianyuan {
+  height: 50rpx;
+  line-height: 35rpx;
+  background: white;
+  background: #C1C1C1;
+  width: 140rpx;
+  font-size: 28rpx;
+  border-radius: 20rpx;
+  padding: 10rpx;
+  color: white;
 }
 

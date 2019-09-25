@@ -122,7 +122,75 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -206,14 +274,48 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 var _default =
 {
   data: function data() {
-    return {};
+    return {
+      goodsList1: [
+      {
+        image: '/static/vip/yuelibaored.png',
+        title: '满十元使用',
+        price: 10,
+        content: '无门槛优惠券1',
+        data: '2019-10-10 12:00' },
 
+      {
+        image: '/static/vip/yuelibaoyellow.png',
+        title: '满十元使用',
+        price: 10,
+        content: '无门槛优惠券2',
+        data: '2019-10-10 12:00' },
+
+      {
+        image: '/static/vip/yuelibaogreen.png',
+        title: '满十元使用',
+        price: 10,
+        content: '无门槛优惠券3',
+        data: '2019-10-10 12:00' }],
+
+
+      goodsList: [] };
 
   },
   onLoad: function onLoad() {
-
+    this.loadData();
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    navToDetailPage: function navToDetailPage(item) {
+      console.log(item);
+    },
+    loadData: function () {var _loadData = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var carouselList, goodsList;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
+                  this.$api.json('carouselList'));case 2:carouselList = _context.sent;
+                this.titleNViewBackground = carouselList[0].background;
+                this.swiperLength = carouselList.length;
+                this.carouselList = carouselList;_context.next = 8;return (
+
+                  this.$api.json('goodsList'));case 8:goodsList = _context.sent;
+                this.goodsList = goodsList || [];case 10:case "end":return _context.stop();}}}, _callee, this);}));function loadData() {return _loadData.apply(this, arguments);}return loadData;}() } };exports.default = _default;
 
 /***/ }),
 

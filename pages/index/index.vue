@@ -196,7 +196,7 @@
 			<scroll-view class="floor-list" scroll-x>
 				<view class="scoll-wrapper">
 					<view 
-						v-for="(item, index) in goodsList" :key="index"
+						v-for="(item, index) in goodsList1" :key="index"
 						class="floor-item"
 						@click="navToDetailPage(item)"
 					>
