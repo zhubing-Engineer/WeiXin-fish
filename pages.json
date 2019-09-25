@@ -66,6 +66,15 @@
 			"style": {
 				"navigationBarTitleText": "购物车"
 			}
+		},
+		{
+			"path": "pages/vipuser/vipuser",
+			"style": {
+				"navigationBarTitleText": "VIP会员商场",
+				"navigationBarBackgroundColor":"#391011",
+				"navigationBarTextStyle":"white"
+				
+			}
 		}, {
 			"path": "pages/public/login",
 			"style": {
@@ -154,33 +163,30 @@
 			"style": {
 				"navigationBarTitleText": "支付成功"
 			}
-		}
-	    ,{
-            "path" : "pages/notice/notice",
-            "style" : {
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
 				"navigationBarTitleText": "通知"
 			}
-        }
-        ,{
-            "path" : "pages/category/category",
-            "style" : {
+		}, {
+			"path": "pages/category/category",
+			"style": {
 				"navigationBarTitleText": "分类",
 				"app-plus": {
 					"bounce": "none"
 				}
 			}
-        }
-        ,{
-            "path" : "pages/product/list",
-            "style" : {
+		}, {
+			"path": "pages/product/list",
+			"style": {
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "商品列表"
 			}
-        }
-    ],
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "鱼塘有鱼",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#f8f8f8"
 	},
@@ -202,6 +208,13 @@
 				"text": "分类"
 			},
 			{
+				"pagePath": "pages/vipuser/vipuser",
+				"iconPath": "static/VIP2x.png",
+				"selectedIconPath": "static/VIP2x.png",
+				"width":"150px",
+				"text": "会员商场"
+			},
+			{
 				"pagePath": "pages/cart/cart",
 				"iconPath": "static/tab-cart.png",
 				"selectedIconPath": "static/tab-cart-current.png",
@@ -215,14 +228,12 @@
 			}
 		]
 	},
-	"condition" : { //模式配置，仅开发期间生效
+	"condition": { //模式配置，仅开发期间生效
 		"current": 0, //当前激活的模式(list 的索引项)
-		"list": [
-			{
-				"name": "", //模式名称
-				"path": "", //启动页面，必选
-				"query": "" //启动参数，在页面的onLoad函数里面得到
-			}
-		]
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
 	}
 }

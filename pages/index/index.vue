@@ -3,7 +3,7 @@
 		<!-- 小程序头部兼容 -->
 		<!-- #ifdef MP -->
 		<view class="mp-search-box">
-			<input class="ser-input" type="text" value="输入关键字搜索" disabled @click="clicksert" />
+			<input class="ser-input" type="text" placeholder="输入关键字搜索" @input="clicksert" />
 		</view>
 		<!-- #endif -->
 		
@@ -250,7 +250,8 @@
 				swiperCurrent: 0,
 				swiperLength: 0,
 				carouselList: [],
-				goodsList: []
+				goodsList: [],
+				inputValue: ''
 			};
 		},
 
@@ -262,8 +263,9 @@
 			 * 请求静态数据只是为了代码不那么乱
 			 * 分次请求未作整合
 			 */
-			clicksert(){
-				console.log("点击了搜索")
+			clicksert: function(event) {
+			     this.inputValue = event.target.value
+				 console.log(this.inputValue)
 			},
 			async loadData() {
 				let carouselList = await this.$api.json('carouselList');

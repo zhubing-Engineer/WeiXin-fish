@@ -5,6 +5,7 @@
     "pages/set/set",
     "pages/userinfo/userinfo",
     "pages/cart/cart",
+    "pages/vipuser/vipuser",
     "pages/public/login",
     "pages/user/user",
     "pages/detail/detail",
@@ -22,7 +23,7 @@
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "鱼塘有鱼",
     "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#f8f8f8"
   },
@@ -45,6 +46,13 @@
         "text": "分类"
       },
       {
+        "pagePath": "pages/vipuser/vipuser",
+        "iconPath": "static/VIP2x.png",
+        "selectedIconPath": "static/VIP2x.png",
+        "width": "150px",
+        "text": "会员商场"
+      },
+      {
         "pagePath": "pages/cart/cart",
         "iconPath": "static/tab-cart.png",
         "selectedIconPath": "static/tab-cart-current.png",
@@ -58,6 +66,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap78.json"
+  "usingComponents": {}
 }

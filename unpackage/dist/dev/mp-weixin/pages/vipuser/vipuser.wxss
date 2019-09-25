@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page,
+.content {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.backimg {
+  width: 100%;
+}
+.bgimg-all {
+  position: relative;
+  height: 850rpx;
+  width: 100%;
+}
+.bgimg-box {
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 0;
+  height: 310rpx;
+}
+.img-top {
+  width: 85%;
+  height: 100rpx;
+  position: absolute;
+  left: 5%;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  /* Safari */
+  margin: 20rpx;
+  color: white;
+}
+.img-content {
+  width: 85%;
+  position: absolute;
+  height: 150rpx;
+  left: 5%;
+  top: 110rpx;
+  background: rgba(251, 251, 251, 0.1);
+  margin: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+.img-content-left {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.img-content-right {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.vip-text {
+  font-size: 16px;
+  color: #FCEEC2;
+  position: absolute;
+  top: 330rpx;
+  width: 100%;
+  text-align: center;
+}
+.cate-section {
+  position: absolute;
+  top: 380rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 30rpx 22rpx;
+  width: 100%;
+  /* 原图标颜色太深,不想改图了,所以加了透明度 */
+}
+.cate-section .cate-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 26rpx;
+    color: white;
+    margin: 0 25rpx 20rpx 25rpx;
+}
+.cate-section image {
+    width: 88rpx;
+    height: 88rpx;
+    margin-bottom: 14rpx;
+    border-radius: 50%;
+    -webkit-box-shadow: 4rpx 4rpx 20rpx rgba(250, 67, 106, 0.3);
+            box-shadow: 4rpx 4rpx 20rpx rgba(250, 67, 106, 0.3);
+}
+.btn-vip {
+  width: 82%;
+  height: 80rpx;
+  position: absolute;
+  top: 730rpx;
+  background: -o-linear-gradient(20deg, #FDEBBF 0%, #E9CA74 100%);
+  background: linear-gradient(70deg, #FDEBBF 0%, #E9CA74 100%);
+  left: 9%;
+  border-radius: 55rpx;
+  color: black;
+}
+.img-gdx {
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.img-img {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 16rpx 7rpx 0 108rpx;
+  float: left;
+}
+.img-text {
+  font-size: 27rpx;
+  color: white;
+  float: left;
+}
+.img-fpx {
+  text-align: center;
+  font-size: 50rpx;
+  color: #FFEFC3;
+}
+
